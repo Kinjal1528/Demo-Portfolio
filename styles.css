@@ -1,0 +1,95 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(127, 157, 255);
+    padding: 12px /*top bottom */ 14px /* right left*/;
+}
+
+.navbar a{
+    margin-right: 4px;
+}
+
+.navbar a:hover{
+    background-color: antiquewhite;
+    padding: 12px 14px;
+}
+
+/* header{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(217, 184, 142);
+} */
+
+.about{
+    margin-top: 50px;
+}
+
+.about .about1{
+    display: flex;
+    margin: 20px;
+}
+.about img{
+    max-width: 350px;
+    align-self: center;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.about p{
+  font-size: 23px;
+  margin: 20px;
+}
+
+.about button{
+    margin-left: 20px;
+    color: black;
+    background-color: bisque;
+}
+
+.about button:hover{
+    background-color: blue;
+}
+
+/* .service h1{
+    text-align: center;
+} */
+
+/* .card{
+    padding: 30px 50px;
+    border: solid black;
+    background-color: bisque;
+    margin: 0px 60px;
+} */
+
+/* .container{
+    display: flex;
+} */
+
+/* .project .card{
+    padding: 30px 30px;
+}
+
+.contact h1{
+    text-align: center;
+
+}
+
+/*for all the places where <input> is used*/
+/* input{
+    color: black;
+}
+/*the places where input is class*/
+/* .input{
+    margin: 0px 300px;
+    padding: 2px;
+    margin-bottom: 5px;
+
+}  */
